@@ -1,66 +1,46 @@
-<<<<<<< HEAD
-# 📊 Data Science S5 (Yesugari Sai Charan Reddy - 2420030133)
+# Data-Science S5 (Charan - 2420030133)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
-![React](https://img.shields.io/badge/React-Frontend-61DAFB) ![KL
-University](https://img.shields.io/badge/KL%20University-S5-orange)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB)
+![KL University](https://img.shields.io/badge/KL%20University-S5-orange)
 
-## 📌 Academic Details
+> [!IMPORTANT]
+> **Academic Details**
+> * **Student Name:** Yesugari Sai Charan Reddy
+> * **Roll Number:** 2420030133
+> * **Subject:** Data Science
+> * **Section:** 5 (S5)
+> * **Guide:** Dr. D. Bheekya
 
-  Item               Details
-  ------------------ ---------------------------
-  **Student Name**   Yesugari Sai Charan Reddy
-  **Roll Number**    2420030133
-  **Subject**        Data Science
-  **Section**        S5
-  **Guide**          Dr. D. Bheekya
+Welcome to my academic evaluation log for Data Science. This repository is structured to align with the course marks distribution and evaluation metrics of the course, encompassing course certifications, the capstone project source code, and weekly laboratory evaluation notebooks.
 
-Welcome to my academic evaluation repository for **Data Science**. This
-repository contains my course certifications, mini/capstone project, and
-weekly laboratory evaluations as per the academic assessment.
+---
 
-------------------------------------------------------------------------
+## Academic Evaluation Matrix
 
-# 📋 Academic Evaluation Matrix
+| Metric | Max Marks | Status | Repository Folder |
+| :--- | :---: | :---: | :--- |
+| **1. MOOCs Review** | **40 Marks** | `[ Verified - 2 Course Certificates ]` | [`/1. Moocs Review`](./1.%20Moocs%20Review/) |
+| **2. Mini / Capstone Project** | **40 Marks** | `[ Completed - SalesVision AI ]` | [`/2. Mini or capstone project`](./2.%20Mini%20or%20capstone%20project/) |
+| **3. Lab Continuous Evaluation** | **50 Marks** | `[ Completed - Weeks 1 to 13 ]` | [`/3. Lab Continuous Evaluation`](./3.%20Lab%20Continuous%20Evaluation/) |
 
-  -------------------------------------------------------------------------------
-  Metric               Max Marks Status         Repository Folder
-  ------------- ---------------- -------------- ---------------------------------
-  MOOCs Review          40 Marks ✅ Verified -  `/1. Moocs Review`
-                                 2 Course       
-                                 Certificates   
+---
 
-  Mini /                40 Marks ✅ Completed - `/2. Mini or capstone project`
-  Capstone                       SalesVision AI 
-  Project                                       
+## Repository Structure Map
 
-  Lab                   50 Marks ✅ Completed - `/3. Lab Continuous Evaluation`
-  Continuous                     Weeks 1 to 13  
-  Evaluation                                    
-  -------------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-# 📁 Repository Structure Map
-
-``` text
+```text
 .
 ├── 1. Moocs Review/
 │   ├── Explore Machine Learning using Python.pdf
 │   └── Python for Data Science.pdf
 │
 ├── 2. Mini or capstone project/
-│   ├── client/
-│   ├── server/
-│   ├── data/
-│   ├── uploads/
-│   ├── exports/
-│   ├── trained_models/
-│   ├── requirements.txt
-│   └── README.md
+│   ├── client/                                    # Frontend React application
+│   ├── server/                                    # Backend FastAPI application
+│   └── README.md                                  # Capstone project documentation
 │
-└── 3. Lab Continuous Evaluation/
+└── 3. Lab Continuous Evaluation/                 # Weekly continuous evaluation log
     ├── Week 01/
     ├── Week 02/
     ├── Week 03/
@@ -76,166 +56,56 @@ weekly laboratory evaluations as per the academic assessment.
     └── Week 13/
 ```
 
-------------------------------------------------------------------------
+---
 
-# 1. MOOCs Review (Max 40 Marks)
+## 1. MOOCs Review (Max 40 Marks)
 
-**Verification Status:** ✅ Checked & Approved (20 Marks per course)
+*Verification Status: Checked & Approved (20 Marks per course)*
 
-### Course 1: Explore Machine Learning using Python
+1. **Course 1: Explore Machine Learning using Python**
+   - **Platform:** Infosys Springboard
+   - **Credentials:** [Certificate PDF](./1.%20Moocs%20Review/Explore%20Machine%20Learning%20using%20Python.pdf)
+2. **Course 2: Python for Data Science**
+   - **Platform:** Infosys Springboard
+   - **Credentials:** [Certificate PDF](./1.%20Moocs%20Review/Python%20for%20Data%20Science.pdf)
 
--   **Platform:** Infosys Springboard
--   **Credentials:** [Certificate
-    PDF](./1.%20Moocs%20Review/Explore%20Machine%20Learning%20using%20Python.pdf)
+---
 
-### Course 2: Python for Data Science
+## 2. Capstone Project (Max 40 Marks)
 
--   **Platform:** Infosys Springboard
--   **Credentials:** [Certificate
-    PDF](./1.%20Moocs%20Review/Python%20for%20Data%20Science.pdf)
+### **SalesVision AI — Intelligent Sales Analytics Dashboard**
+An AI-powered analytics platform that enables users to upload CSV/Excel datasets and perform end-to-end sales analysis through an interactive dashboard.
 
-------------------------------------------------------------------------
+- **Project Folder:** [`/2. Mini or capstone project`](./2.%20Mini%20or%20capstone%20project/)
+- **Technology Stack:** React + TypeScript + Vite + Plotly.js (Client) | Python + FastAPI + Pandas + Scikit-learn (Server)
+- **Core Features:**
+  - Interactive sales dashboard with Plotly.js visualizations.
+  - Automated data cleaning, scaling, and preprocessing.
+  - Machine Learning insights and predictions.
+  - Report exports and sample dataset trials.
 
-# 2. Capstone Project (Max 40 Marks)
+---
 
-## SalesVision AI --- Intelligent Sales Analytics Dashboard
+## 3. Lab Continuous Evaluation (Max 50 Marks)
 
-SalesVision AI is an AI-powered analytics platform that enables users to
-upload CSV/Excel datasets and perform end-to-end sales analysis through
-an interactive dashboard.
+Below is the complete weekly breakdown of laboratory experiments, implementations, and algorithms covered in this repository.
 
-### Features
+| Week | Folder Link | Primary Notebook | Core Algorithms & Topics Covered | Libraries Used |
+| :---: | :--- | :--- | :--- | :--- |
+| **01** | [`Week 01`](./3.%20Lab%20Continuous%20Evaluation/Week%2001/week-1/) | [`Introduction to Data Science Tools.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2001/week-1/Introduction%20to%20Data%20Science%20Tools.ipynb) | Google Colab, Anaconda setup, Jupyter Notebook, NumPy Arrays, Matrix Operations | NumPy |
+| **02** | [`Week 02`](./3.%20Lab%20Continuous%20Evaluation/Week%2002/week-2/) | [`Data Cleaning Techniques.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2002/week-2/Data%20Cleaning%20Techniques.ipynb) | Handling missing values (mean imputation), handling duplicates, basic data wrangling | Pandas |
+| **03** | [`Week 03`](./3.%20Lab%20Continuous%20Evaluation/Week%2003/week-3/) | [`Similarity and Dissimilarity Measures.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2003/week-3/Similarity%20and%20Dissimilarity%20Measures.ipynb) | Distance Measures (Euclidean, Manhattan, Minkowski, Cosine), Jaccard Similarity | NumPy, SciPy |
+| **04** | [`Week 04`](./3.%20Lab%20Continuous%20Evaluation/Week%2004/week-4/) | [`Data Science Workflow.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2004/week-4/Data%20Science%20Workflow.ipynb) | Complete pipeline: ingestion, cleaning (imputation), scaling, correlation, and basic linear regression | NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn |
+| **05** | [`Week 05`](./3.%20Lab%20Continuous%20Evaluation/Week%2005/week-5/) | [`Data Transformation and Dimensionality Reduction.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2005/week-5/Data%20Transformation%20and%20Dimensionality%20Reduction.ipynb) | Normalization (Min-Max), Standardization (Z-score), Label Encoding, One-Hot Encoding, PCA, LDA, t-SNE | Pandas, Seaborn, Scikit-learn, Matplotlib |
+| **06** | [`Week 06`](./3.%20Lab%20Continuous%20Evaluation/Week%2006/week-6/) | [`Exploratory Data Analysis.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2006/week-6/Exploratory%20Data%20Analysis.ipynb) | Central Tendency (Mean, Median, Mode), Dispersion (Range, Variance, SD, IQR), Skewness, Kurtosis | Pandas, Scikit-learn |
+| **07** | [`Week 07`](./3.%20Lab%20Continuous%20Evaluation/Week%2007/week-7/) | [`Data Visualization Techniques.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2007/week-7/Data%20Visualization%20Techniques.ipynb) | Univariate (Histogram, Boxplot, Pie), Bivariate (Scatter, Line, Bar), Multivariate (Heatmap, Bubble, Pairplot), Advanced (Violin, Joint, KDE) | Pandas, Seaborn, Matplotlib, Scikit-learn |
+| **08** | [`Week 08`](./3.%20Lab%20Continuous%20Evaluation/Week%2008/week-8/) | [`Linear Algebra and Matrix Decomposition.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2008/week-8/Linear%20Algebra%20and%20Matrix%20Decomposition.ipynb) | LU Decomposition (Doolittle method) with forward/backward substitution, QR Decomposition (Gram-Schmidt method) | NumPy |
+| **09** | [`Week 09`](./3.%20Lab%20Continuous%20Evaluation/Week%2009/week-9/) | [`Probability Distributions and Statistical Tests.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2009/week-9/Probability%20Distributions%20and%20Statistical%20Tests.ipynb) | Bernoulli, Binomial, Poisson, Geometric, Normal, Exponential, Z-Test, Independent t-test, Parametric & Non-Parametric tests | NumPy, SciPy, Matplotlib, statsmodels |
+| **10** | [`Week 10`](./3.%20Lab%20Continuous%20Evaluation/Week%2010/week-10/) | [`Regression Models.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2010/week-10/Regression%20Models.ipynb) | Linear Regression (House Price Prediction), Logistic Regression (House Purchase Classification) | NumPy, Scikit-learn |
+| **11** | [`Week 11`](./3.%20Lab%20Continuous%20Evaluation/Week%2011/week-11/) | [`Classification Algorithms.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2011/week-11/Classification%20Algorithms.ipynb) | Student Pass/Fail Prediction, Decision Tree (GridSearchCV, Cross-Validation, visualization), KNN classification, and multi-model benchmark | NumPy, Pandas, Scikit-learn, Matplotlib |
+| **12** | [`Week 12`](./3.%20Lab%20Continuous%20Evaluation/Week%2012/week-12/) | [`K-Means Clustering + Hierarchical Clustering.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2012/week-12/K-Means%20Clustering%20+%20Hierarchical%20Clustering.ipynb) | Customer segmentation (K-Means, Hierarchical/Dendrogram), multi-clustering comparison (8 models), Elbow and Silhouette parameter tuning | NumPy, Pandas, Scikit-learn, Matplotlib, SciPy |
+| **13** | [`Week 13`](./3.%20Lab%20Continuous%20Evaluation/Week%2013/week-13/) | [`Text Preprocessing and Recommendation.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2013/week-13/Text%20Preprocessing%20and%20Recommendation.ipynb) | TF-IDF, Naive Bayes, Cosine Similarity, Collaborative Filtering | Pandas, Matplotlib, Scikit-learn, NLTK |
 
--   Upload CSV/Excel datasets
--   Automatic data preprocessing
--   Interactive charts and visualizations
--   Statistical summaries
--   Machine Learning insights
--   Export generated reports
-
-### Live Deployment
-
-Local Development
-
-### Technology Stack
-
--   React
--   TypeScript
--   Vite
--   FastAPI
--   Python
--   Pandas
--   NumPy
--   Scikit-learn
--   Plotly.js
-
-### Project Structure
-
-``` text
-client/            → React + TypeScript + Vite
-server/            → FastAPI Backend
-data/              → Sample datasets
-uploads/           → Uploaded datasets
-exports/           → Generated reports
-trained_models/    → Saved ML models
-requirements.txt   → Python dependencies
-README.md          → Project documentation
-```
-
-------------------------------------------------------------------------
-
-# 3. Lab Continuous Evaluation (Max 50 Marks)
-
-Below is the complete weekly laboratory evaluation log.
-
-  ------------------------------------------------------------------------------------
-  Week   Folder     Primary Notebook       Core Algorithms & Topics    Libraries Used
-         Link                              Covered                     
-  ------ ---------- ---------------------- --------------------------- ---------------
-  01     Week 01    Introduction to Data   Google Colab, Anaconda,     NumPy
-                    Science Tools.ipynb    Jupyter Notebook, NumPy     
-                                           Arrays, Matrix Operations   
-
-  02     Week 02    Data Cleaning          Handling missing values,    Pandas
-                    Techniques.ipynb       duplicates, basic data      
-                                           wrangling                   
-
-  03     Week 03    Similarity and         Euclidean, Manhattan,       NumPy, SciPy
-                    Dissimilarity          Minkowski, Cosine, Jaccard  
-                    Measures.ipynb                                     
-
-  04     Week 04    Data Science           Data pipeline, scaling,     NumPy, Pandas,
-                    Workflow.ipynb         correlation, linear         Matplotlib,
-                                           regression                  Seaborn,
-                                                                       Scikit-learn
-
-  05     Week 05    Data Transformation    Normalization,              Pandas,
-                    and Dimensionality     Standardization, Encoding,  Seaborn,
-                    Reduction.ipynb        PCA, LDA, t-SNE             Scikit-learn,
-                                                                       Matplotlib
-
-  06     Week 06    Exploratory Data       Mean, Median, Mode,         Pandas,
-                    Analysis.ipynb         Variance, SD, IQR,          Scikit-learn
-                                           Skewness, Kurtosis          
-
-  07     Week 07    Data Visualization     Histogram, Boxplot,         Pandas,
-                    Techniques.ipynb       Scatter, Heatmap, Pairplot, Seaborn,
-                                           KDE                         Matplotlib
-
-  08     Week 08    Linear Algebra and     LU & QR Decomposition       NumPy
-                    Matrix                                             
-                    Decomposition.ipynb                                
-
-  09     Week 09    Probability            Bernoulli, Binomial,        NumPy, SciPy,
-                    Distributions and      Poisson, Normal, Z-Test,    Matplotlib,
-                    Statistical            t-test                      statsmodels
-                    Tests.ipynb                                        
-
-  10     Week 10    Regression             Linear Regression, Logistic NumPy,
-                    Models.ipynb           Regression                  Scikit-learn
-
-  11     Week 11    Classification         Decision Tree, KNN, Cross   NumPy, Pandas,
-                    Algorithms.ipynb       Validation                  Scikit-learn
-
-  12     Week 12    K-Means & Hierarchical Customer Segmentation,      NumPy, Pandas,
-                    Clustering.ipynb       Elbow, Silhouette           Scikit-learn,
-                                                                       SciPy
-
-  13     Week 13    Text Preprocessing and TF-IDF, Naive Bayes, Cosine Pandas,
-                    Recommendation.ipynb   Similarity, Collaborative   Matplotlib,
-                                           Filtering                   Scikit-learn,
-                                                                       NLTK
-  ------------------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-# 🛠 Technologies Used
-
--   Python
--   FastAPI
--   React
--   TypeScript
--   Vite
--   Pandas
--   NumPy
--   Scikit-learn
--   Plotly.js
--   Matplotlib
--   Seaborn
--   Git
--   GitHub
-
-------------------------------------------------------------------------
-
-## ⭐ Repository Status
-
--   ✅ MOOCs Review Completed
--   ✅ Capstone Project Completed
--   ✅ Laboratory Evaluation Completed (Week 01 -- Week 13)
-
-------------------------------------------------------------------------
+---
 
 Made with ❤️ by **Yesugari Sai Charan Reddy**
-=======
-
->>>>>>> 4bab4b89c015be508075e2c8f4bcda85a93dcd59
