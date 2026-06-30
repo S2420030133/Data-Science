@@ -1,4 +1,4 @@
-# 📊 Data Science S5 (Yesugari Sai Charan Reddy - 2420030133)
+# Data Science S5 (Yesugari Sai Charan Reddy - 2420030133)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
