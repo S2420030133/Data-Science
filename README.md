@@ -1,10 +1,5 @@
 # Data Science S5 (Yesugari Sai Charan Reddy - 2420030133)
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
-![React](https://img.shields.io/badge/React-Frontend-61DAFB) ![KL
-University](https://img.shields.io/badge/KL%20University-S5-orange)
-
 ## 📌 Academic Details
 
   Item               Details
