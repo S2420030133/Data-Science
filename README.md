@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📊 Data Science S5 (Yesugari Sai Charan Reddy - 2420030133)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
@@ -235,3 +236,6 @@ Below is the complete weekly laboratory evaluation log.
 ------------------------------------------------------------------------
 
 Made with ❤️ by **Yesugari Sai Charan Reddy**
+=======
+
+>>>>>>> 4bab4b89c015be508075e2c8f4bcda85a93dcd59
