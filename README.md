@@ -102,5 +102,3 @@ Below is the complete weekly breakdown of laboratory experiments, implementation
 | **13** | [`Week 13`](./3.%20Lab%20Continuous%20Evaluation/Week%2013/week-13/) | [`Text Preprocessing and Recommendation.ipynb`](./3.%20Lab%20Continuous%20Evaluation/Week%2013/week-13/Text%20Preprocessing%20and%20Recommendation.ipynb) | TF-IDF, Naive Bayes, Cosine Similarity, Collaborative Filtering | Pandas, Matplotlib, Scikit-learn, NLTK |
 
 ---
-
-Made with ❤️ by **Yesugari Sai Charan Reddy**
